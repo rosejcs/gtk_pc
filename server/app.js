@@ -1,6 +1,6 @@
 const express = require("express");
 
-const index = require("./routes/index.js");
+
 
 const bodyParser = require("body-parser");
 
@@ -21,5 +21,3 @@ server.use(bodyParser.urlencoded({
 	extended: false
 }));
 
-/* 配置路由器路径 */
-server.use("/index",index);
