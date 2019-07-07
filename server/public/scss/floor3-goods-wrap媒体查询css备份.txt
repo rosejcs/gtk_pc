@@ -1,0 +1,112 @@
+/*  商品盒子floor3以下 goods-wrap  媒体查询 大 1024-1439 */
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+}
+
+/*  商品盒子floor3以下 goods-wrap  媒体查询 大 1113以下 */
+
+@media screen and (max-width: 1113px) {
+	.goods-wrap {
+		li.good {
+			// 单个商品
+			ul.good-introduct {
+				li {
+					+ li {
+						/* media start */
+						max-width: 200px;
+						/* media end */
+					}
+				} // 商品名称
+				li.good-name {
+					/* 略小于大屏的媒体查询 */
+					/* media start */
+					max-width: 200px;
+					/* media end */
+				}
+			}
+		}
+	}
+}
+
+/*  商品盒子floor3以下 goods-wrap  媒体查询 中 768-1023 */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.goods-wrap {
+		li.good {
+			// 单个商品
+			ul.good-introduct {
+				li {
+					+ li {
+						/* media start */
+						max-width: 150px;
+						/* media end */
+					}
+				} // 商品名称
+				li.good-name {
+					/* media start */
+					max-width: 150px;
+					/* media end */
+				}
+			}
+		}
+	}
+}
+
+/*  商品盒子floor3以下 goods-wrap  媒体查询 小 767以下 */
+
+@media screen and (max-width: 767px) {
+	.goods-wrap {
+		li.good {
+			// 单个商品
+			ul.good-introduct {
+				li {
+					+ li {
+						/* media start */
+						max-width: 84px;
+						/* media end */
+					}
+				} // 商品名称
+				li.good-name {
+					/* media start */
+					max-width: 84px;
+					font-size: 1.4rem;
+					/* media end */
+				}
+				li.good-details {
+					/* media start */
+					font-size: 1rem;
+					/* media end */
+				}
+				li.good-price {
+					/* media start */
+					font-size: 1rem;
+					/* media end */
+				}
+			}
+		}
+	}
+}
+
+/*  商品盒子floor3以下 goods-wrap  媒体查询 小 767以下 */
+
+@media screen and (max-width: 376px) {
+	.goods-wrap {
+		li.good {
+			// 单个商品
+			ul.good-introduct {
+				li {
+					+ li {
+						/* media start */
+						max-width: 71.75px;
+						/* media end */
+					}
+				} // 商品名称
+				li.good-name {
+					/* media start */
+					max-width: 71.75px;
+					/* media end */
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,140 @@
+.wrap {
+  max-width: 768px;
+}
+
+#training-content {
+  background-color: #fafafa;
+  box-sizing: border-box;
+  color: #999;
+  font-size: 12px;
+
+  .nav-title {
+    background-color: #fff;
+
+    .title-wrap {
+      height: 52px;
+
+      p {
+        line-height: 52px;
+      }
+
+      .training-target {
+        float: left;
+
+        >p {
+          >span.lesson-name {}
+        }
+      }
+
+      .training-count {
+        float: right;
+
+        >p {
+          >span.lesson-num {}
+        }
+      }
+    }
+
+
+
+  }
+
+  .training-parts {
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      li {
+
+        // width: 48%;
+        a {
+          display: block;
+          width: 368px;
+          height: 288px;
+          background-color: #fff;
+          position: relative;
+
+          >img {
+            width: 368px;
+            height: 214px;
+          }
+
+          .training-name,
+          .mask {
+            position: absolute;
+            bottom: 74px;
+            width: 100%;
+            height: 88px;
+            font-size: 12px;
+            background-color: rgba(0, 0, 0, 0.3);
+
+            p {
+              position: absolute;
+            }
+
+            p:nth-child(1) {
+              color: #fff;
+              font-size: 1.8rem;
+              font-weight: 600;
+              // margin: 10px 0 0 10px ;
+              top: 20%;
+              left: 6%;
+            }
+
+            p:nth-child(2) {
+              color: #fff;
+              bottom: 20%;
+              left: 6%;
+
+              span:last-child {
+                margin-left: 1.4rem;
+              }
+            }
+          }
+
+          .training-details {
+            width: 100%;
+            height: 74px;
+            position: absolute;
+            bottom: 0;
+            color: #584f60;
+
+            p {
+              position: absolute;
+            }
+
+            p:nth-child(1) {
+              top: 16%;
+              left: 6%;
+
+              // width: 85px;
+              span {
+                float: left;
+              }
+
+              span:nth-child(1) {
+                margin-right: .5rem;
+              }
+
+              span:not(:nth-child(1)) {
+                width: 12px;
+
+                img {
+                  width: 100%;
+                  vertical-align: -2px;
+                }
+              }
+            }
+
+            p:nth-child(2) {
+              bottom: 20%;
+              left: 6%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

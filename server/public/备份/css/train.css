@@ -1,0 +1,399 @@
+@charset "UTF-8";
+.wrap {
+  max-width: 768px; }
+
+body {
+  background: #eee; }
+
+.section-title {
+  padding: 60px 0;
+  background-color: #fff; }
+  .section-title h2 {
+    width: 100%;
+    text-align: center;
+    color: #24c789;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem; }
+  .section-title p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #999; }
+
+#train-content {
+  background-color: #eee; }
+  #train-content .train-title {
+    padding: 60px 0;
+    background-color: #fff; }
+    #train-content .train-title h2 {
+      width: 100%;
+      text-align: center;
+      color: #24c789;
+      font-size: 2.4rem;
+      margin-bottom: 1.5rem; }
+    #train-content .train-title p {
+      width: 100%;
+      text-align: center;
+      font-size: 1.6rem;
+      color: #999; }
+  #train-content .train-lessons {
+    width: 100%;
+    background-color: #fff; }
+    #train-content .train-lessons ul.lessons {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; }
+      #train-content .train-lessons ul.lessons li {
+        float: left;
+        width: 25%;
+        background: url("../img/train-lesson1.jpg") no-repeat center/cover;
+        position: relative;
+        /* 具体每个盒子图片 */ }
+        #train-content .train-lessons ul.lessons li:hover {
+          transform: translateY(-10px);
+          transition: all 1s linear;
+          box-shadow: 0 6px 16px rgba(0, 0, 0, 0.7); }
+          #train-content .train-lessons ul.lessons li:hover a .mask {
+            background: rgba(0, 0, 0, 0.15); }
+          #train-content .train-lessons ul.lessons li:hover .text .title {
+            font-size: 20px;
+            text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9); }
+          #train-content .train-lessons ul.lessons li:hover .text .count {
+            font-size: 16px;
+            color: #fff;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.9); }
+        #train-content .train-lessons ul.lessons li a {
+          display: inline-block;
+          width: 100%;
+          padding-bottom: 100%;
+          width: 100%; }
+          #train-content .train-lessons ul.lessons li a .mask {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); }
+          #train-content .train-lessons ul.lessons li a .text {
+            width: 100%; }
+            #train-content .train-lessons ul.lessons li a .text .title {
+              width: 100%;
+              position: absolute;
+              top: 30%;
+              font-size: 1.8rem;
+              font-weight: bold;
+              color: #fff;
+              margin-bottom: 16px;
+              text-align: center; }
+            #train-content .train-lessons ul.lessons li a .text .count {
+              width: 100%;
+              position: absolute;
+              top: 55%;
+              font-size: 1.2rem;
+              color: #bbb;
+              text-align: center; }
+        #train-content .train-lessons ul.lessons li:nth-child(1) {
+          background-image: url("../img/train-lesson1.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(2) {
+          background-image: url("../img/train-lesson2.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(3) {
+          background-image: url("../img/train-lesson3.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(4) {
+          background-image: url("../img/train-lesson4.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(5) {
+          background-image: url("../img/train-lesson5.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(6) {
+          background-image: url("../img/train-lesson6.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(7) {
+          background-image: url("../img/train-lesson7.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(8) {
+          background-image: url("../img/train-lesson8.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(9) {
+          background-image: url("../img/train-lesson9.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(10) {
+          background-image: url("../img/train-lesson10.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(11) {
+          background-image: url("../img/train-lesson11.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(12) {
+          background-image: url("../img/train-lesson12.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(13) {
+          background-image: url("../img/train-lesson13.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(14) {
+          background-image: url("../img/train-lesson14.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(15) {
+          background-image: url("../img/train-lesson15.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(16) {
+          background-image: url("../img/train-lesson16.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(17) {
+          background-image: url("../img/train-lesson17.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(18) {
+          background-image: url("../img/train-lesson18.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(19) {
+          background-image: url("../img/train-lesson19.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(20) {
+          background-image: url("../img/train-lesson20.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(21) {
+          background-image: url("../img/train-lesson21.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(22) {
+          background-image: url("../img/train-lesson22.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(23) {
+          background-image: url("../img/train-lesson23.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(24) {
+          background-image: url("../img/train-lesson24.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(25) {
+          background-image: url("../img/train-lesson25.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(26) {
+          background-image: url("../img/train-lesson26.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(27) {
+          background-image: url("../img/train-lesson27.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(28) {
+          background-image: url("../img/train-lesson28.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(29) {
+          background-image: url("../img/train-lesson29.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(30) {
+          background-image: url("../img/train-lesson30.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(31) {
+          background-image: url("../img/train-lesson31.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(32) {
+          background-image: url("../img/train-lesson32.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(33) {
+          background-image: url("../img/train-lesson33.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(34) {
+          background-image: url("../img/train-lesson34.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(35) {
+          background-image: url("../img/train-lesson35.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(36) {
+          background-image: url("../img/train-lesson36.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(37) {
+          background-image: url("../img/train-lesson37.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(38) {
+          background-image: url("../img/train-lesson38.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(39) {
+          background-image: url("../img/train-lesson39.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(40) {
+          background-image: url("../img/train-lesson40.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(41) {
+          background-image: url("../img/train-lesson41.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(42) {
+          background-image: url("../img/train-lesson42.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(43) {
+          background-image: url("../img/train-lesson43.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(44) {
+          background-image: url("../img/train-lesson44.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(45) {
+          background-image: url("../img/train-lesson45.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(46) {
+          background-image: url("../img/train-lesson46.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(47) {
+          background-image: url("../img/train-lesson47.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(48) {
+          background-image: url("../img/train-lesson48.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(49) {
+          background-image: url("../img/train-lesson49.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(50) {
+          background-image: url("../img/train-lesson50.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(51) {
+          background-image: url("../img/train-lesson51.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(52) {
+          background-image: url("../img/train-lesson52.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(53) {
+          background-image: url("../img/train-lesson53.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(54) {
+          background-image: url("../img/train-lesson54.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(55) {
+          background-image: url("../img/train-lesson55.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(56) {
+          background-image: url("../img/train-lesson56.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(57) {
+          background-image: url("../img/train-lesson57.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(58) {
+          background-image: url("../img/train-lesson58.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(59) {
+          background-image: url("../img/train-lesson59.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(60) {
+          background-image: url("../img/train-lesson60.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(61) {
+          background-image: url("../img/train-lesson61.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(62) {
+          background-image: url("../img/train-lesson62.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(63) {
+          background-image: url("../img/train-lesson63.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(64) {
+          background-image: url("../img/train-lesson64.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(65) {
+          background-image: url("../img/train-lesson65.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(66) {
+          background-image: url("../img/train-lesson66.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(67) {
+          background-image: url("../img/train-lesson67.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(68) {
+          background-image: url("../img/train-lesson68.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(69) {
+          background-image: url("../img/train-lesson69.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(70) {
+          background-image: url("../img/train-lesson70.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(71) {
+          background-image: url("../img/train-lesson71.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(72) {
+          background-image: url("../img/train-lesson72.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(73) {
+          background-image: url("../img/train-lesson73.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(74) {
+          background-image: url("../img/train-lesson74.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(75) {
+          background-image: url("../img/train-lesson75.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(76) {
+          background-image: url("../img/train-lesson76.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(77) {
+          background-image: url("../img/train-lesson77.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(78) {
+          background-image: url("../img/train-lesson78.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(79) {
+          background-image: url("../img/train-lesson79.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(80) {
+          background-image: url("../img/train-lesson80.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(81) {
+          background-image: url("../img/train-lesson81.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(82) {
+          background-image: url("../img/train-lesson82.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(83) {
+          background-image: url("../img/train-lesson83.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(84) {
+          background-image: url("../img/train-lesson84.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(85) {
+          background-image: url("../img/train-lesson85.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(86) {
+          background-image: url("../img/train-lesson86.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(87) {
+          background-image: url("../img/train-lesson87.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(88) {
+          background-image: url("../img/train-lesson88.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(89) {
+          background-image: url("../img/train-lesson89.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(90) {
+          background-image: url("../img/train-lesson90.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(91) {
+          background-image: url("../img/train-lesson91.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(92) {
+          background-image: url("../img/train-lesson92.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(93) {
+          background-image: url("../img/train-lesson93.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(94) {
+          background-image: url("../img/train-lesson94.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(95) {
+          background-image: url("../img/train-lesson95.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(96) {
+          background-image: url("../img/train-lesson96.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(97) {
+          background-image: url("../img/train-lesson97.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(98) {
+          background-image: url("../img/train-lesson98.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(99) {
+          background-image: url("../img/train-lesson99.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(100) {
+          background-image: url("../img/train-lesson100.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(101) {
+          background-image: url("../img/train-lesson101.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(102) {
+          background-image: url("../img/train-lesson102.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(103) {
+          background-image: url("../img/train-lesson103.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(104) {
+          background-image: url("../img/train-lesson104.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(105) {
+          background-image: url("../img/train-lesson105.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(106) {
+          background-image: url("../img/train-lesson106.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(107) {
+          background-image: url("../img/train-lesson107.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(108) {
+          background-image: url("../img/train-lesson108.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(109) {
+          background-image: url("../img/train-lesson109.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(110) {
+          background-image: url("../img/train-lesson110.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(111) {
+          background-image: url("../img/train-lesson111.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(112) {
+          background-image: url("../img/train-lesson112.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(113) {
+          background-image: url("../img/train-lesson113.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(114) {
+          background-image: url("../img/train-lesson114.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(115) {
+          background-image: url("../img/train-lesson115.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(116) {
+          background-image: url("../img/train-lesson116.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(117) {
+          background-image: url("../img/train-lesson117.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(118) {
+          background-image: url("../img/train-lesson118.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(119) {
+          background-image: url("../img/train-lesson119.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(120) {
+          background-image: url("../img/train-lesson120.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(121) {
+          background-image: url("../img/train-lesson121.jpg"); }
+        #train-content .train-lessons ul.lessons li:nth-child(122) {
+          background-image: url("../img/train-lesson122.jpg"); }
+    #train-content .train-lessons .more {
+      width: 100%;
+      height: 164px; }
+      #train-content .train-lessons .more span {
+        display: inline-block;
+        width: 100%;
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 1rem; }
+      #train-content .train-lessons .more .more-btn {
+        text-align: center; }
+        #train-content .train-lessons .more .more-btn a {
+          display: inline-block;
+          width: 152px;
+          height: 36px;
+          line-height: 33px;
+          text-align: center;
+          box-sizing: border-box;
+          border: 1px solid #24c789;
+          border-radius: 18px;
+          font-size: 12px;
+          color: #24c789; }
+  #train-content .train-action {
+    background-color: #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; }
+    #train-content .train-action .action-details {
+      height: 382px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around; }
+      #train-content .train-action .action-details li {
+        width: 20%;
+        text-align: center; }
+        #train-content .train-action .action-details li a {
+          display: inline-block;
+          width: 84px;
+          height: 84px; }
+          #train-content .train-action .action-details li a img {
+            width: 100%; }
+        #train-content .train-action .action-details li span {
+          display: inline-block;
+          width: 100%;
+          font-size: 1.4rem;
+          margin-top: 2rem; }
+
+/*  媒体查询 大 1024-1439 */
+/*  媒体查询 中 768-1023 */
+/*  .train-lessons 媒体查询 小 767以下 */
+@media screen and (max-width: 767px) {
+  #train-content .train-lessons ul.lessons li {
+    width: 49.8%;
+    max-height: 375px; } }
+
+/*  .train-lessons 媒体查询 小 767以下 */
+@media screen and (max-width: 767px) {
+  #train-content .train-action .action-details {
+    height: 930px; }
+    #train-content .train-action .action-details li {
+      width: 50%;
+      text-align: center; } }
